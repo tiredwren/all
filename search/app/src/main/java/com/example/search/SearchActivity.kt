@@ -365,24 +365,12 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                 R.drawable.kissing_cats
             )
         )
-        itemList.add(
+        /* itemList.add(
             ItemsModal(
                 "name", "desc", "content",
                 "link", R.drawable.kissing_cats
             )
-        )
-        itemList.add(
-            ItemsModal(
-                "name", "desc", "content",
-                "link", R.drawable.kissing_cats
-            )
-        )
-        itemList.add(
-            ItemsModal(
-                "name", "desc", "content",
-                "link", R.drawable.kissing_cats
-            )
-        )
+        ) */
 
         // on below line we are notifying adapter
         // that data has been updated.
