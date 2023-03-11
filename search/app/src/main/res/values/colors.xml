@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="tan">#D3B88C</color>
+    <color name="cambridge_blue">#9EBC9F</color>
+    <color name="licorice">#230903</color>
+    <color name="pink">#D4AFB9</color>
+    <color name="salmon_pink">#E2856E</color>
+    <color name="cool_gray">#8895B3</color>
+    <color name="smoky_white">#F4F2F3</color>
+</resources>

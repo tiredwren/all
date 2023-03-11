@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Search" parent="Theme.AppCompat">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cambridge_blue</item>
+        <item name="colorPrimaryVariant">@color/cool_gray</item>
+        <item name="colorOnPrimary">@color/smoky_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/salmon_pink</item>
+        <item name="colorSecondaryVariant">@color/cambridge_blue</item>
+        <item name="colorOnSecondary">@color/licorice</item>
+        <!-- Status bar color. -->
+
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
