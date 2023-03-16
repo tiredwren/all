@@ -39,9 +39,30 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
 
+        val zoomlevel=10f
         // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        val ValueVillage = LatLng(47.554133, -122.060372)
+        mMap.addMarker(MarkerOptions().position(ValueVillage).title("Issaquah Value Village"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ValueVillage,zoomlevel))
+
+        val GoodwillSammamish = LatLng(47.608482, -122.046928)
+        mMap.addMarker(MarkerOptions().position(GoodwillSammamish).title("Sammamish Goodwill"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillSammamish))
+
+        val GoodwillRedmond = LatLng(47.634797, -122.132335)
+        mMap.addMarker(MarkerOptions().position(GoodwillRedmond).title("Redmond Goodwill"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillRedmond))
+
+        val GoodwillRenton = LatLng(47.504620, -122.178190)
+        mMap.addMarker(MarkerOptions().position(GoodwillRenton).title("Renton Goodwill"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillRedmond))
+
+        val GoodwillWoodinville = LatLng(47.754507, -122.157742)
+        mMap.addMarker(MarkerOptions().position(GoodwillWoodinville).title("Woodinville Goodwill"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillWoodinville))
+
+        val GoodwillJuanita = LatLng(47.707735, -122.198863)
+        mMap.addMarker(MarkerOptions().position(GoodwillJuanita).title("Juanita Goodwill"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillJuanita))
     }
 }
