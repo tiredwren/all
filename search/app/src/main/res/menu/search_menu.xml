@@ -11,6 +11,6 @@
         android:icon="@drawable/search_main"
         android:title="search for organizations or goals to donate to"
         app:actionViewClass="androidx.appcompat.widget.SearchView"
-        app:showAsAction="ifRoom|collapseActionView" />
+        app:showAsAction="always" />
 
 </menu>

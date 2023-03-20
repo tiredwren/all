@@ -2,8 +2,12 @@ package com.example.search
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
+import android.widget.Toast
+import android.widget.Toolbar
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,6 +15,12 @@ class MainActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        setSupportActionBar(toolbar);
+
+        toolbar.setOnClickListener{
+            startActivity(Intent(this@MainActivity,MainActivity::class.java))
+        }
 
         val onlineButton = findViewById<Button>(R.id.online)
         onlineButton.setOnClickListener {
