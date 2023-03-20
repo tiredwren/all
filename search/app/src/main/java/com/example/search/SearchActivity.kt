@@ -62,8 +62,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "UNICEF works with governments, civil society organizations, and other partners to advocate for policies and programs that benefit children. The organization also conducts research and data analysis to better understand the needs and challenges facing children around the world.\n\n" +
                         "Some of the key areas of focus for UNICEF include child survival and development, education, child protection, gender equality, and humanitarian action. The organization also prioritizes the most marginalized and vulnerable children, including those affected by poverty, conflict, and displacement.\n\n" +
                         "Overall, UNICEF is committed to ensuring that every child has the opportunity to reach their full potential, and works tirelessly to improve the lives of children around the world.",
-                "https://www.unicefusa.org/?form=donate",
-                R.drawable.converse
+                "https://www.unicefusa.org/?form=donate", R.drawable.unicef
             )
         )
         itemList.add(
@@ -76,7 +75,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "CARE operates a variety of programs to support its mission, including emergency response and disaster relief efforts, long-term development projects, and advocacy campaigns to promote social change. The organization also partners with local communities, governments, and other organizations to ensure that its work is sustainable and effective.\n\n" +
                         "Overall, CARE International is dedicated to creating a world where all individuals have the opportunity to live healthy, fulfilling lives free from poverty and injustice.\n",
                 "https://my.care.org/site/Donation2?df_id=30733&mfc_pref=T&30733.donation=form1&s_src=172220000000",
-                R.drawable.couple_cats
+                R.drawable.care
             )
         )
         itemList.add(
@@ -89,20 +88,20 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "Hopelink partners with local businesses, government agencies, and community organizations to provide its services, and relies on the support of volunteers and donors to carry out its mission. The organization is committed to creating a community where all individuals have the opportunity to thrive, regardless of their income or circumstances.\n\n" +
                         "Overall, Hopelink is dedicated to helping individuals and families in need build brighter futures for themselves and their communities. The organization's comprehensive approach to addressing the root causes of poverty has made a positive impact on the lives of countless individuals in the Pacific Northwest.\n\n,",
                 "https://www.hopelink.org/take-action/donate-goods-services",
-                R.drawable.kissing_cats
+                R.drawable.hopelink
             )
         )
         itemList.add(
             ItemsModal(
                 "Mercy Ships",
-                "Provide life-saving healthcare around the world.",
+                "Provide for life-saving healthcare.",
                 "Mercy Ships is a global charity organization that provides free medical care and humanitarian aid to impoverished communities in developing countries. The organization operates a fleet of hospital ships that are staffed by volunteer medical professionals from all over the world.\n\n" +
                         "The ships are equipped with state-of-the-art medical facilities, including operating rooms, recovery wards, and diagnostic equipment. They travel to some of the world's poorest nations, where they provide medical services such as cataract surgeries, cleft lip and palate repairs, orthopedic procedures, and more.\n\n" +
                         "Mercy Ships also works to improve healthcare infrastructure in the countries where they operate. They provide training for local healthcare professionals, and partner with local governments and organizations to improve healthcare access for those who need it most.\n\n" +
                         "In addition to medical care, Mercy Ships provides humanitarian aid such as food, water, and shelter to those in need. They also offer education and vocational training programs to help individuals and communities build brighter futures.\n\n" +
                         "Overall, Mercy Ships is dedicated to bringing hope and healing to those who are most vulnerable and in need of assistance. Their work has positively impacted the lives of countless individuals and communities around the world.",
                 "https://www.mercyships.org/",
-                R.drawable.tea
+                R.drawable.mercyships
             )
         )
         itemList.add(
@@ -115,7 +114,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "In addition to food fortification programs, PHC also conducts research and advocacy to raise awareness about the importance of nutrition and to promote evidence-based solutions to malnutrition. The organization collaborates with a range of partners, including academic institutions, non-profit organizations, and government agencies, to achieve its goals.\n\n" +
                         "Overall, Project Healthy Children is dedicated to improving the health and well-being of populations in developing countries by addressing the root causes of malnutrition and micronutrient deficiencies. The organization's work has made a significant impact on the lives of countless individuals, particularly children and women, who are most vulnerable to the effects of malnutrition.",
                 "https://projecthealthychildren.org/",
-                R.drawable.reading
+                R.drawable.phc
             )
         )
         itemList.add(
@@ -128,7 +127,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "Living Goods works in partnership with local governments, non-profit organizations, and other stakeholders to ensure that its programs are sustainable and effective. The organization is committed to building strong and resilient healthcare systems that can meet the needs of communities in the long term.\n\n" +
                         "Overall, Living Goods is dedicated to improving the health and well-being of communities in Africa by empowering and supporting community health workers. The organization's innovative approach to healthcare delivery has made a significant impact on the lives of countless individuals, particularly those living in remote and underserved areas.\n\n",
                 "https://livinggoods.org/give/",
-                R.drawable.reading
+                R.drawable.livinggoods
             )
         )
         itemList.add(
@@ -145,7 +144,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "Overall, Theirworld is dedicated to creating a world where every child has the opportunity to thrive and reach their full potential. The organization's focus on education, health, and protection has made a significant impact on the lives of countless children and young people around the world.\n",
                 "https://theirworld.org/donate/",
-                R.drawable.reading
+                R.drawable.theirworld
             )
         )
         itemList.add(
@@ -163,7 +162,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "Overall, United World Schools is dedicated to improving access to education for children in some of the world's poorest regions. The organization's community-led approach has made a significant impact on the lives of countless children, helping them to break the cycle of poverty and to build brighter futures for themselves and their communities.\n",
                 "https://www.unitedworldschools.org/donate/donate/10/direct-debit",
-                R.drawable.reading
+                R.drawable.unitedworld
             )
         )
         itemList.add(
@@ -181,7 +180,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "Overall, Plan International is dedicated to promoting the rights of children and to achieving gender equality by empowering communities and supporting children and young people. The organization's focus on gender equality and children's rights has made a significant impact on the lives of countless individuals around the world.\n",
                 "https://projecthealthychildren.org/",
-                R.drawable.reading
+                R.drawable.planinternational
             )
         )
         itemList.add(

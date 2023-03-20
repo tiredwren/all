@@ -6,4 +6,5 @@
     <string name="link"><a href="https://www.hopelink.org/take-action/donate-goods-services">link</a></string>
     <string name="Hopelink">Hopelink is a non-profit organization based in Washington state, USA, that provides a range of services to people in need, including food assistance, emergency shelter, transportation, energy assistance, and job training. The organization\'s mission is to promote self-sufficiency for individuals and families in crisis by providing assistance and support to help them achieve stability and independence. Hopelink operates multiple centers throughout King and Snohomish counties and serves thousands of people each year. The organization relies on community support and donations to fund its programs and services.\nWebsite: https://www.hopelink.org/take-action/donate-goods-services
 </string>
+    <string name="title_activity_maps2">MapsActivity2</string>
 </resources>
