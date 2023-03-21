@@ -9,10 +9,11 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
 
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
@@ -20,11 +21,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setSupportActionBar(toolbar);
-
-        toolbar.setOnClickListener{
-            startActivity(Intent(this@MapsActivity,MainActivity::class.java))
-        }
 
         binding = ActivityMapsBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -48,11 +44,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
 
-        val zoomlevel=5f
+        googleMap.setOnMarkerClickListener(this);
+
+        val zoomlevel = 5f
         // Add a marker in Sydney and move the camera
         val ValueVillage = LatLng(47.554133, -122.060372)
         mMap.addMarker(MarkerOptions().position(ValueVillage).title("Issaquah Value Village"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ValueVillage,zoomlevel))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ValueVillage, zoomlevel))
 
         val GoodwillSammamish = LatLng(47.608482, -122.046928)
         mMap.addMarker(MarkerOptions().position(GoodwillSammamish).title("Sammamish Goodwill"))
@@ -73,5 +71,10 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val GoodwillJuanita = LatLng(47.707735, -122.198863)
         mMap.addMarker(MarkerOptions().position(GoodwillJuanita).title("Juanita Goodwill"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillJuanita))
+    }
+
+    override fun onMarkerClick(marker: Marker): Boolean {
+        startActivity(Intent(this, ContentActivity::class.java))
+    return false
     }
 }

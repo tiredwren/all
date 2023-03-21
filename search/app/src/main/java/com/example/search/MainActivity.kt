@@ -16,11 +16,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        setSupportActionBar(toolbar);
-
-        toolbar.setOnClickListener{
-            startActivity(Intent(this@MainActivity,MainActivity::class.java))
-        }
 
         val onlineButton = findViewById<Button>(R.id.online)
         onlineButton.setOnClickListener {

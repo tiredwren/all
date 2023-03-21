@@ -26,11 +26,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_search)
 
-        setSupportActionBar(toolbar);
 
-        toolbar.setOnClickListener{
-            startActivity(Intent(this@SearchActivity,MainActivity::class.java))
-        }
 
         val homeNavSearch = findViewById<Button>(R.id.home_nav_search)
         homeNavSearch.setOnClickListener {
