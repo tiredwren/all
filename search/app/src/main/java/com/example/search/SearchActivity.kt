@@ -202,7 +202,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "Since its founding, Charity: water has brought clean water to over 12 million people in 29 countries around the world. The organization continues to work tirelessly towards its goal of ending the global water crisis, recognizing that access to clean water is not just a basic human right, but also a key factor in achieving health, education, and economic development.\n",
                 "https://www.charitywater.org/donate",
-                R.drawable.kissing_cats
+                R.drawable.charitywater
             )
         )
         itemList.add(
@@ -223,7 +223,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "Since its founding, Water.org has impacted the lives of over 33 million people in 13 countries around the world. The organization continues to work towards its goal of ensuring that everyone, everywhere has access to safe water and sanitation, recognizing that this is not just a basic human right, but also a key factor in achieving health, education, and economic development.\n",
                 "https://water.org/donate/",
-                R.drawable.kissing_cats
+                R.drawable.waterorg
             )
         )
         itemList.add(
@@ -242,7 +242,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "Since its founding, The Water Project has impacted the lives of over 600,000 people in sub-Saharan Africa, providing them with access to clean and safe drinking water. The organization continues to work towards its goal of ensuring that everyone, everywhere has access to safe water and sanitation, recognizing that this is not just a basic human right, but also a key factor in achieving health, education, and economic development. By implementing sustainable and effective water solutions and advocating for policy changes, The Water Project is making a significant contribution to addressing the water crisis in sub-Saharan Africa.\n",
                 "https://thewaterproject.org/?form=give-clean-water",
-                R.drawable.kissing_cats
+                R.drawable.thewaterproject
             )
         )
         itemList.add(
@@ -263,8 +263,8 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "CarbonShot is another initiative that Carbon 180 is involved in, which is a public-private partnership that focuses on accelerating the development and deployment of carbon removal solutions. CarbonShot aims to catalyze breakthrough innovations in carbon removal and create a supportive ecosystem for their commercialization.\n" +
                         "\n" +
                         "In conclusion, Carbon 180 is a non-profit organization that is working to advance carbon removal as a critical tool in the fight against climate change. The organization's work is focused on advancing science, policy, and innovation to create the conditions for carbon removal to flourish. By driving innovation, shaping policy, and engaging stakeholders, Carbon 180 is helping to create a more sustainable and resilient future for all.\n",
-                "link",
-                R.drawable.kissing_cats
+                "https://carbon180.org/donate",
+                R.drawable.carbon180
             )
         )
         itemList.add(
@@ -285,7 +285,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "In conclusion, the Clean Air Task Force is a non-profit organization that is focused on reducing air pollution and addressing the impacts of climate change. The organization's work is focused on informing and advocating for effective public policies that promote clean energy and reduce air pollution. By advancing innovative solutions and raising public awareness, CATF is helping to create a cleaner and healthier future for all.\n",
                 "https://donate.catf.us/page/39127/donate/1",
-                R.drawable.kissing_cats
+                R.drawable.catf
             )
         )
         itemList.add(
@@ -305,7 +305,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "Overall, Cool Earth is a non-profit organization that is focused on protecting rainforests and the communities that depend on them. The organization's unique approach of working with local people to create sustainable livelihoods has been successful in protecting rainforests and promoting sustainable development. By empowering local people to take control of their forests, Cool Earth is helping to create a more sustainable and equitable future for all.\n",
                 "https://www.coolearth.org/donate/usd/",
-                R.drawable.kissing_cats
+                R.drawable.coolearth
             )
         )
         itemList.add(
@@ -326,7 +326,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "Overall, Ocean Conservancy is dedicated to promoting a healthy and sustainable ocean that benefits people and the planet. The organization's work spans from scientific research and analysis to policy advocacy and public engagement. By bringing together stakeholders across different sectors and countries, Ocean Conservancy works to create a collective impact towards a brighter future for the ocean and its inhabitants.\n",
                 "https://donate.oceanconservancy.org/page/92465/donate/1",
-                R.drawable.kissing_cats
+                R.drawable.oceancons
             )
         )
         itemList.add(
@@ -345,7 +345,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "In summary, Oceana is a non-profit organization that is dedicated to protecting and restoring the health of the world's oceans. Through its advocacy, research, and collaboration with other organizations, Oceana is working to promote sustainable fishing practices, reduce the impact of oil and gas drilling, and prevent plastic pollution. The organization is a leader in the field of ocean conservation, and its efforts are critical to preserving the health of the world's oceans for future generations.\n",
                 "https://act.oceana.org/page/95375/donate/1?ea.tracking.id=homepage&utm_campaign=general&utm_source=header&utm_medium=website&transaction.donationAmt=&op=DONATE&_ga=2.246740994.769951391.1678386966-582366699.1678386966",
-                R.drawable.kissing_cats
+                R.drawable.oceana
             )
         )
         itemList.add(
@@ -364,7 +364,7 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                         "\n" +
                         "Overall, Sea Shepherd is a dedicated and passionate organization that is committed to protecting marine wildlife and ecosystems. The organization's direct action campaigns have drawn attention to the plight of marine life and have been successful in bringing about positive changes in some cases. While controversial, Sea Shepherd's efforts have undoubtedly contributed to the broader movement for marine conservation and have helped to raise public awareness of the need to protect the world's oceans.\n",
                 "https://seashepherd.org/donate/",
-                R.drawable.kissing_cats
+                R.drawable.seashep
             )
         )
         /* itemList.add(
