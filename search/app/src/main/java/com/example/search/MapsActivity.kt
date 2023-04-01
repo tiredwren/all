@@ -39,7 +39,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
 
-        val zoomlevel=5f
+        val zoomlevel=10f
         // Add a marker in Sydney and move the camera
         val ValueVillage = LatLng(47.554133, -122.060372)
         mMap.addMarker(MarkerOptions().position(ValueVillage).title("Issaquah Value Village"))
