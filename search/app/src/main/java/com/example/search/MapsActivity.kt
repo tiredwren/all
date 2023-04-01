@@ -7,7 +7,9 @@ import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
@@ -36,33 +38,55 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
      */
+
+
+    /**
+     * red = poverty
+     * orange = healthcare
+     * rose = education
+     * azure = water
+     * green = climate change
+     * magenta = underwater
+     */
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
 
         val zoomlevel=10f
         // Add a marker in Sydney and move the camera
         val ValueVillage = LatLng(47.554133, -122.060372)
-        mMap.addMarker(MarkerOptions().position(ValueVillage).title("Issaquah Value Village"))
+        mMap.addMarker(MarkerOptions().position(ValueVillage).title("Issaquah Value Village")
+            .snippet("short desc")
+            .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)))
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ValueVillage,zoomlevel))
 
         val GoodwillSammamish = LatLng(47.608482, -122.046928)
-        mMap.addMarker(MarkerOptions().position(GoodwillSammamish).title("Sammamish Goodwill"))
+        mMap.addMarker(MarkerOptions().position(GoodwillSammamish).title("Sammamish Goodwill")
+            .snippet("short desc")
+            .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillSammamish))
 
         val GoodwillRedmond = LatLng(47.634797, -122.132335)
-        mMap.addMarker(MarkerOptions().position(GoodwillRedmond).title("Redmond Goodwill"))
+        mMap.addMarker(MarkerOptions().position(GoodwillRedmond).title("Redmond Goodwill")
+            .snippet("short desc")
+            .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillRedmond))
 
         val GoodwillRenton = LatLng(47.504620, -122.178190)
-        mMap.addMarker(MarkerOptions().position(GoodwillRenton).title("Renton Goodwill"))
+        mMap.addMarker(MarkerOptions().position(GoodwillRenton).title("Renton Goodwill")
+            .snippet("short desc")
+            .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillRedmond))
 
         val GoodwillWoodinville = LatLng(47.754507, -122.157742)
-        mMap.addMarker(MarkerOptions().position(GoodwillWoodinville).title("Woodinville Goodwill"))
+        mMap.addMarker(MarkerOptions().position(GoodwillWoodinville).title("Woodinville Goodwill")
+            .snippet("short desc")
+            .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillWoodinville))
 
         val GoodwillJuanita = LatLng(47.707735, -122.198863)
-        mMap.addMarker(MarkerOptions().position(GoodwillJuanita).title("Juanita Goodwill"))
+        mMap.addMarker(MarkerOptions().position(GoodwillJuanita).title("Juanita Goodwill")
+            .snippet("short desc")
+            .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillJuanita))
     }
 }
