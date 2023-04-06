@@ -50,7 +50,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val markerOptions = MarkerOptions()
             .position(GoodwillSammamish)
             .title("Sammamish Goodwill")
-            .snippet("Address: 625 228th Ave NE, Sammamish, WA 98074\nHours: 9am - 5pm")
+            .snippet("Address: 625 228th Ave NE, Sammamish, WA 98074")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE))
         val marker = mMap.addMarker(markerOptions)
         //marker.showInfoWindow()
@@ -62,7 +62,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(GoodwillRedmond)
             .title("Redmond Goodwill")
-            .snippet("Address: 625 228th Ave NE, Redmond, WA 98074\nHours: 9am - 5pm")
+            .snippet("Address: 15301 NE 24th St, Redmond, WA 98052")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillRedmond))
 
@@ -70,7 +70,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(GoodwillRenton)
             .title("Renton Goodwill")
-            .snippet("gh")
+            .snippet("Address: 3210 Sunset Blvd NE, Renton, WA 98056")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillRenton))
 
@@ -78,7 +78,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(GoodwillWoodinville)
             .title("Woodinville Goodwill")
-            .snippet("gh")
+            .snippet("Address: 17524 131st Ave NE, Woodinville, WA 98072")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillWoodinville))
 
@@ -86,7 +86,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(GoodwillJuanita)
             .title("Juanita Goodwill")
-            .snippet("gh")
+            .snippet("Address: 9826 NE 132nd St, Kirkland, WA 98034")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillJuanita))
 
@@ -94,7 +94,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(GoodwillKent)
             .title("Kent Goodwill")
-            .snippet("gh")
+            .snippet("Address: 315 Washington Ave S, Kent, WA 98032")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillKent))
 
@@ -102,7 +102,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(GoodwillAuburn)
             .title("Auburn Goodwill")
-            .snippet("gh")
+            .snippet("Address: 1519 Auburn Way S, Auburn, WA 98002")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillAuburn))
 
@@ -110,7 +110,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(GoodwillFederalWay)
             .title("Federal Way Goodwill")
-            .snippet("gh")
+            .snippet("Address: 32521 Pacific Hwy S, Federal Way, WA 98003")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillFederalWay))
 
@@ -118,7 +118,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(GoodwillPuyallup)
             .title("Puyallup Goodwill")
-            .snippet("gh")
+            .snippet("Address: 12915 Meridian Ave E, Puyallup, WA 98373")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillPuyallup))
 
@@ -126,7 +126,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(GoodwillBonneyLake)
             .title("Bonney Lake Goodwill")
-            .snippet("gh")
+            .snippet("Address: 21153 WA-410, Bonney Lake, WA 98391")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillBonneyLake))
 
@@ -134,7 +134,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(GoodwillSumner)
             .title("Sumner Goodwill")
-            .snippet("gh")
+            .snippet("Address: 926 Main St #101, Sumner, WA 98390")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(GoodwillSumner))
 
@@ -143,23 +143,23 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(ValueIssaquah)
             .title("Issaquah Value Village")
-            .snippet("gh")
+            .snippet("Address: 5530 E Lake Sammamish Pkwy SE, Issaquah, WA 98029")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ValueIssaquah))
 
-        val ValueWoodnville = LatLng(47.755983753433604,  -122.15089202347497)
+        val ValueWoodinville = LatLng(47.755983753433604,  -122.15089202347497)
         mMap.addMarker(MarkerOptions()
-            .position(ValueWoodnville)
-            .title("Woodnville Value Village")
-            .snippet("gh")
+            .position(ValueWoodinville)
+            .title("Woodinville Value Village")
+            .snippet("Address: 17524 131st Ave NE, Woodinville, WA 98072")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(ValueWoodnville))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(ValueWoodinville))
 
         val ValueKent = LatLng(47.3862690670405, -122.20063680999802)
         mMap.addMarker(MarkerOptions()
             .position(ValueKent)
             .title("Kent Value Village")
-            .snippet("gh")
+            .snippet("Address: 24034 104th Ave SE, Kent, WA 98030")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ValueKent))
 
@@ -167,7 +167,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(ValueLynwood)
             .title("Lynwood Value Village")
-            .snippet("gh")
+            .snippet("Address: 17216 Hwy 99, Lynnwood, WA 98037")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ValueLynwood))
 
@@ -175,7 +175,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(ValueEverett)
             .title("Everett Value Village")
-            .snippet("gh")
+            .snippet("Address: 6220 Evergreen Way, Everett, WA 98203")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ValueEverett))
 
@@ -183,24 +183,24 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(ValuePuyallup)
             .title("Puyallup Value Village")
-            .snippet("gh")
+            .snippet("Address: 1124 River Rd, Puyallup, WA 98371")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ValuePuyallup))
 
         //Other locations
-        val Hopelink = LatLng(47.62237087107349, -122.14219857627313)
+        val Hopelink = LatLng(47.61360124963741, -122.14127698762375)
         mMap.addMarker(MarkerOptions()
             .position(Hopelink)
             .title("Hopelink")
-            .snippet("gh")
+            .snippet("Address: 14812 Main St, Bellevue, WA 98007")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Hopelink))
 
-        val Jubilee = LatLng(47.63501762621738, -122.30352672203573)
+        val Jubilee = LatLng(47.640569691755076, -122.30627330390747)
         mMap.addMarker(MarkerOptions()
             .position(Jubilee)
             .title("Jubilee Women's Center")
-            .snippet("gh")
+            .snippet("Address: 620 18th Ave E, Seattle, WA 98112")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Jubilee))
 
@@ -208,7 +208,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(KidVantage)
             .title("KidVantage Bremerton")
-            .snippet("gh")
+            .snippet("Address: 1463 NE Dawn Rd, Bremerton, WA 98311")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(KidVantage))
 
@@ -216,7 +216,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(T2P2)
             .title("T2P2")
-            .snippet("gh")
+            .snippet("13555 Aurora Ave N, Seattle, WA 98133")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(T2P2))
 
@@ -224,7 +224,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(IssaquahFood)
             .title("Issaquah Food and Clothing Bank")
-            .snippet("gh")
+            .snippet("179 1st Ave SE, Issaquah, WA 98027")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(IssaquahFood))
 
@@ -240,7 +240,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Vision)
             .title("Vision House Thrift Store")
-            .snippet("gh")
+            .snippet("14200 SE 13th Pl, Bellevue, WA 98007")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Vision))
 
@@ -248,7 +248,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Bridge)
             .title("Bridge Disability Ministries")
-            .snippet("gh")
+            .snippet("12356 Northup Way, Bellevue, WA 98005")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Bridge))
 
@@ -256,7 +256,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Match)
             .title("Be The Match Collection Center Seattle")
-            .snippet("gh")
+            .snippet("314 Stewart St, Seattle, WA 98101")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Match))
 
@@ -264,7 +264,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Gateway)
             .title("Gateway Medical Alliance")
-            .snippet("gh")
+            .snippet("8247 S 194th St, Kent, WA 98032")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Gateway))
 
@@ -272,7 +272,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Bloodworks)
             .title("Bloodworks Northwest Bellevue Donor Center")
-            .snippet("gh")
+            .snippet("1807 132nd Ave NE #2249, Bellevue, WA 98005")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Bloodworks))
 
@@ -280,7 +280,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Dembi)
             .title("Dembi Dollo Hospital Foundation")
-            .snippet("gh")
+            .snippet("13405 SE 59th St, Bellevue, WA 98006")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Dembi))
 
@@ -296,7 +296,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Mona)
             .title("Mona Foundation")
-            .snippet("gh")
+            .snippet("14400 Bel-Red Rd, Bellevue, WA 98007")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Mona))
 
@@ -304,7 +304,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(WaterTrust)
             .title("Washington Water Trust")
-            .snippet("gh")
+            .snippet("1500 Westlake Ave N #202, Seattle, WA 98109")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(WaterTrust))
 
@@ -312,7 +312,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(WaterFirst)
             .title("Water First")
-            .snippet("gh")
+            .snippet("1904 3rd Ave #1012, Seattle, WA 98101")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(WaterFirst))
 
@@ -320,7 +320,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Cascade)
             .title("Cascade Columbia Fisheries")
-            .snippet("gh")
+            .snippet("25 N Wenatchee Ave #203, Wenatchee, WA 98801")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Cascade))
 
@@ -328,7 +328,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(ValueTukwila)
             .title("Tukwila Value Village")
-            .snippet("gh")
+            .snippet("Address: 16700 Southcenter Pkwy, Tukwila, WA 98188")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ValueTukwila,zoomlevel))
     }
