@@ -216,7 +216,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(T2P2)
             .title("T2P2")
-            .snippet("13555 Aurora Ave N, Seattle, WA 98133")
+            .snippet("Address: 13555 Aurora Ave N, Seattle, WA 98133")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(T2P2))
 
@@ -224,7 +224,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(IssaquahFood)
             .title("Issaquah Food and Clothing Bank")
-            .snippet("179 1st Ave SE, Issaquah, WA 98027")
+            .snippet("Address: 179 1st Ave SE, Issaquah, WA 98027")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(IssaquahFood))
 
@@ -232,7 +232,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(REACH)
             .title("Jubilee REACH")
-            .snippet("gh")
+            .snippet("Address: 14200 SE 13th Pl, Bellevue, WA 98007")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(REACH))
 
@@ -240,7 +240,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Vision)
             .title("Vision House Thrift Store")
-            .snippet("14200 SE 13th Pl, Bellevue, WA 98007")
+            .snippet("Address: 14200 SE 13th Pl, Bellevue, WA 98007")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Vision))
 
@@ -248,7 +248,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Bridge)
             .title("Bridge Disability Ministries")
-            .snippet("12356 Northup Way, Bellevue, WA 98005")
+            .snippet("Address: 12356 Northup Way, Bellevue, WA 98005")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Bridge))
 
@@ -256,7 +256,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Match)
             .title("Be The Match Collection Center Seattle")
-            .snippet("314 Stewart St, Seattle, WA 98101")
+            .snippet("Address: 314 Stewart St, Seattle, WA 98101")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Match))
 
@@ -264,7 +264,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Gateway)
             .title("Gateway Medical Alliance")
-            .snippet("8247 S 194th St, Kent, WA 98032")
+            .snippet("Address: 8247 S 194th St, Kent, WA 98032")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Gateway))
 
@@ -272,7 +272,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Bloodworks)
             .title("Bloodworks Northwest Bellevue Donor Center")
-            .snippet("1807 132nd Ave NE #2249, Bellevue, WA 98005")
+            .snippet("Address: 1807 132nd Ave NE #2249, Bellevue, WA 98005")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Bloodworks))
 
@@ -280,7 +280,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Dembi)
             .title("Dembi Dollo Hospital Foundation")
-            .snippet("13405 SE 59th St, Bellevue, WA 98006")
+            .snippet("Address: 13405 SE 59th St, Bellevue, WA 98006")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Dembi))
 
@@ -288,7 +288,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Books)
             .title("Books of Joy")
-            .snippet("gh")
+            .snippet("Address: 7345 164th Ave NE ste 145-148, Redmond, WA 98052")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Books))
 
@@ -296,7 +296,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Mona)
             .title("Mona Foundation")
-            .snippet("14400 Bel-Red Rd, Bellevue, WA 98007")
+            .snippet("Address: 14400 Bel-Red Rd, Bellevue, WA 98007")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Mona))
 
@@ -304,7 +304,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(WaterTrust)
             .title("Washington Water Trust")
-            .snippet("1500 Westlake Ave N #202, Seattle, WA 98109")
+            .snippet("Address: 1500 Westlake Ave N #202, Seattle, WA 98109")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(WaterTrust))
 
@@ -312,7 +312,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(WaterFirst)
             .title("Water First")
-            .snippet("1904 3rd Ave #1012, Seattle, WA 98101")
+            .snippet("Address: 1904 3rd Ave #1012, Seattle, WA 98101")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(WaterFirst))
 
@@ -320,7 +320,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions()
             .position(Cascade)
             .title("Cascade Columbia Fisheries")
-            .snippet("25 N Wenatchee Ave #203, Wenatchee, WA 98801")
+            .snippet("Address: 25 N Wenatchee Ave #203, Wenatchee, WA 98801")
             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Cascade))
 
