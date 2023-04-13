@@ -425,12 +425,12 @@ class SearchActivity : AppCompatActivity(), ClickListener {
                 // adding it to our filtered list.
                 filteredlist.add(item)
             }
-            if (item.short_desc.lowercase().contains(text.lowercase())) {
+            else if (item.short_desc.lowercase().contains(text.lowercase())) {
                 // if the item is matched we are
                 // adding it to our filtered list.
                 filteredlist.add(item)
             }
-            if (item.content_desc.lowercase().contains(text.lowercase())) {
+            else if (item.content_desc.lowercase().contains(text.lowercase())) {
                 // if the item is matched we are
                 // adding it to our filtered list.
                 filteredlist.add(item)
