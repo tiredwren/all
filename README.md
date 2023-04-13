@@ -1,4 +1,4 @@
-# all
+# AllHands
 
 The Maps Activity has some prerequisits before it can funtion properly.
 
